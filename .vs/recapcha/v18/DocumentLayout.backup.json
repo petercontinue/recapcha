@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code-fullstack\\recapcha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\services\\googlerecaptchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:services\\googlerecaptchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\services\\irecaptchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:services\\irecaptchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|d:\\code-fullstack\\recapcha\\options\\recaptchaoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAF7E68E-C89E-478D-8574-83B9191F331D}|recapcha.csproj|solutionrelative:options\\recaptchaoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T03:15:13.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:13:45.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T03:13:30.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRecaptchaService.cs",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\Services\\IRecaptchaService.cs",
+              "RelativeDocumentMoniker": "Services\\IRecaptchaService.cs",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\Services\\IRecaptchaService.cs",
+              "RelativeToolTip": "Services\\IRecaptchaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:12:04.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoogleRecaptchaService.cs",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\Services\\GoogleRecaptchaService.cs",
+              "RelativeDocumentMoniker": "Services\\GoogleRecaptchaService.cs",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\Services\\GoogleRecaptchaService.cs",
+              "RelativeToolTip": "Services\\GoogleRecaptchaService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:11:58.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecaptchaOptions.cs",
+              "DocumentMoniker": "D:\\code-fullstack\\recapcha\\Options\\RecaptchaOptions.cs",
+              "RelativeDocumentMoniker": "Options\\RecaptchaOptions.cs",
+              "ToolTip": "D:\\code-fullstack\\recapcha\\Options\\RecaptchaOptions.cs",
+              "RelativeToolTip": "Options\\RecaptchaOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:11:33.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center mb-4">
+    <h1 class="display-4">Welcome</h1>
+    <p class="lead">reCAPTCHA v3 demo — submit the form to verify in the background.</p>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        @if (Model.VerificationSucceeded && !string.IsNullOrEmpty(Model.StatusMessage))
+        {
+            <div class="alert alert-success" role="alert">@Model.StatusMessage</div>
+        }
+
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+        <form method="post" asp-page="/Index" id="recaptcha-demo-form" class="card card-body shadow-sm">
+            <div class="mb-3">
+                <label asp-for="Message" class="form-label">Message</label>
+                <textarea asp-for="Message" class="form-control" rows="3" placeholder="Type something..."></textarea>
+            </div>
+            <input type="hidden" asp-for="RecaptchaToken" id="RecaptchaToken" />
+            <button type="submit" class="btn btn-primary" id="recaptcha-submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @if (!string.IsNullOrEmpty(Model.SiteKey))
+    {
+        <script src="https://www.google.com/recaptcha/api.js?render=@Model.SiteKey"></script>
+        <script>
+            (function () {
+                var form = document.getElementById('recaptcha-demo-form');
+                var tokenInput = document.getElementById('RecaptchaToken');
+                var siteKey = '@Model.SiteKey';
+
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    if (typeof grecaptcha === 'undefined') {
+                        alert('reCAPTCHA script did not load.');
+                        return;
+                    }
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute(siteKey, { action: '@IndexModel.DemoAction' }).then(function (token) {
+                            tokenInput.value = token;
+                            form.submit();
+                        });
+                    });
+                });
+            })();
+        </script>
+    }
+}
